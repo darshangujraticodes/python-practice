@@ -142,6 +142,57 @@ print(arr)
 
 #booleans 
 
+print(True == 1)
+
+print(False != 1)
+
+print(False == 0)
+
+print(True + 4)
+
+
 #sets
+
+"""
+Alwaya note curly braces is been used for both sets and dictionary but not their differene
+
+dictionay story value in key vaue pairs
+
+set store data in in single value format
+
+note empyt set is denoted by  =>  set()
+
+"""
+
+set_one = { 1,2,3,4,5,6 }
+
+set_two = { 5,6,7,8,9,10}
+
+set_three = { 1,2,3,4,5,6 }
+
+print("set intersection = ",set_one & set_two)
+
+print("set Union = ",set_one | set_two)
+
+print("set difference = ",set_one - set_three)
+
+
+
+# decimal issue
+
+tst = 0.1 + 0.1 + 0.1 - 0.3
+
+print(tst) #will always be wrong 
+
+"""
+because decimal handling in python is in different form
+it need to been done using decimal library
+"""
+
+from decimal import Decimal
+
+tssst = Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3')
+
+print(tssst)
 
 
