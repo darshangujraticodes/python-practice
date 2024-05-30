@@ -30,12 +30,14 @@ print('pop() = ',list1.pop(), list1)
 
 print('remove() = ', list1.remove('harry'),list1)
 
-# methods
 
+
+# methods
 
 square_value = [x**2 for x in range(10)]
 
 print(square_value)
+
 
 
 # operation
@@ -52,10 +54,11 @@ for k in list1:
 
 print('\ncondition')
 
-
 list1 = []  #emptyigng all element of list.
 
 if 'hagrid' in list1:
     print('\nIt is present !!')
 else:
     print('\nIt is absent !!')
+
+
