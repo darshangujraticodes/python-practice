@@ -76,10 +76,9 @@ else:
 
 # coffee order problem
 
-# coffee_order_size = input('Enter Coffee order Size = ')
+coffee_order_size = input('Enter Coffee order Size = ')
 
-# coffee_extra_shot = input("Do you want Extra Shot y or n = ").lower()
-
+coffee_extra_shot = input("Do you want Extra Shot y or n = ").lower()
 
 if (coffee_extra_shot == 'y'):
     coffee_order = coffee_order_size + " Coffee with Extra Shot"
