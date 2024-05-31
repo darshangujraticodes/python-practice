@@ -19,6 +19,11 @@ india_states = {
 india_capital = {'maharashtra':'mumbai', 'kerala':'trivandrum', 'gujrat':'Ahmedabad','andra pradesh':'hyderabad','assam':'dispur','goa':'panaji'}
 
 
+print('\n type identification = ', type(india_states))
+
+new_dict = { 'up':'lucknow', 'bohar':'patna', 'rajasthan':'jaipur' }
+
+
 india_capital['karnataka'] = 'bangalore'
 
 print('\n pop() = ',india_capital.pop('karnataka'), india_capital)
@@ -38,6 +43,12 @@ print('\nfinal india_city_copy = ',india_city_copy)
 
 print(india_capital['maharashtra'])
 
+print('length = ',len(india_capital))
+
+# will give error concat in dictionary is note supported !!
+# new_capital_dictionary = india_capital + new_dict
+# print('new capital dictionary combination ',new_capital_dictionary )
+
 print(' \nnested dictionary =  ',india_states['assam']['city1'])
 
 india_states['assam']['city2'] = 'dibrugarh'
@@ -51,8 +62,6 @@ print(india_states)
 
 
 print(india_capital.get('kerala'))
-
-
 
 
 #method
