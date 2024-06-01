@@ -86,6 +86,21 @@ type_chai = 'Masala'
 
 print(order.format(order_figure, type_chai))
 
+# format string other example
+
+capital = 'Mumbai'
+state = 'Maharashtra'
+country = 'India'
+
+# f denoted the format string method of python
+final_val = f'{capital} is state capital of {state} but also financial capital of {country}'
+
+print('\nformat String Example = ', final_val)
+
+
+string2 = 'helloworlddarshanishere'
+print('\ncapitalize() = ', string2.capitalize())
+
 
 
 # string loops
