@@ -8,6 +8,7 @@
 6. [Ordered and Unoredered List](https://github.com/Digital-Darsh/Markdown-Syntax/blob/main/README.md#ordered-and-unordered-list)
 7. [Text Higligher](https://github.com/Digital-Darsh/Markdown-Syntax/tree/main?tab=readme-ov-file#text-highlighter)
 8. [Code Block](https://github.com/Digital-Darsh/Markdown-Syntax/tree/main?tab=readme-ov-file#code-block)
+9. [DropDown Arrow]()
 
 <br>
 
@@ -248,3 +249,65 @@ To Showcase code it need to be wrapped inside 3 Backticks (```)
 ```
 
 <br>
+
+# Dropdown Arrow
+
+### Code Block Syntax :
+
+To Showcase dropdown wrapped your code inside details tag (`<details> </details>`)
+
+### DropDown Input Syntax :
+
+Summary define the head part of Dropdown and info out of summary tag are the value which will be showcase in opening drop down
+
+````
+```
+<details>
+  <summary>
+  1. Print the Sum of Input number in Python
+  </summary>
+
+  Python Code :
+
+  input_val = int(input('Enter your number = '))
+
+  def sum_of_num(number):
+      sum = 0
+      while (number > 0):
+          rem = int(number % 10)
+          sum = sum + rem
+          number = int(number / 10)
+
+      return sum
+
+  print('Sum of Input Number = ', sum_of_num(input_val))
+
+</details>
+```
+````
+
+### DropDown Output :
+
+<details>
+  <summary>
+  1. Print the Sum of Input number in Python
+  </summary>
+
+Python Code :
+
+```
+input_val = int(input('Enter your number = '))
+
+def sum_of_num(number):
+    sum = 0
+    while (number > 0):
+        rem = int(number % 10)
+        sum = sum + rem
+        number = int(number / 10)
+
+    return sum
+
+print('Sum of Input Number = ', sum_of_num(input_val))
+```
+
+</details>
