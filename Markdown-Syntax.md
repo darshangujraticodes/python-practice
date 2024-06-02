@@ -6,7 +6,7 @@
 4. [Insert Image](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#insert-image)
 5. [Alert Message Box](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#alert-message)
 6. [Ordered and Unoredered List](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#ordered-and-unordered-list)
-7. [Text Higligher](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#text-highlighter)
+7. [Text Higlighter](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#text-highlighter)
 8. [Code Block](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#code-block)
 9. [DropDown Arrow](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#dropdown-arrow)
 
