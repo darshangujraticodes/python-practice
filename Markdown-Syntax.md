@@ -14,7 +14,7 @@
 
 # Heading
 
-### Heading Input Syntax :
+### Heading Syntax :
 
 ```
 # Heading 1
@@ -40,7 +40,7 @@
 
 # Text Style Effect
 
-### Text Style Input Syntax :
+### Text Style Syntax :
 
 ```
 Text **Bold** Effect in Readme file
@@ -52,7 +52,7 @@ Emoji in Text :+1:
 
 For a full list of available emoji and codes, see the [Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
-### Output :
+### Text Style Output :
 
 Text **Bold** Effect in Readme file <br>
 Text _Italic_ Effect in Readme File <br>
@@ -71,7 +71,7 @@ syntax : [Text Title](Url Link)
 eg : [CS Techtube Youtube Channel](https://www.youtube.com/@cstechtube/videos)
 ```
 
-### Output :
+### Insert Link Output :
 
 [CS Techtube Youtube Channel](https://www.youtube.com/@cstechtube/videos)
 
@@ -86,7 +86,7 @@ syntax : ![Alt Text](Image Url Link)
 eg : ![CS Techtube](https://cstechtube.com/wp-content/uploads/2023/07/Copy-of-xs-1.png)
 ```
 
-### Output :
+### Insert Image Output :
 
 ![CS Techtube](https://yt3.googleusercontent.com/VV55wfKSKiYJsixkcFDq4mlRWbUtcMg596xEfQ8UvQdCDdCqZbRdeAPng7Ekos94TeT5ypdSRCw=s176-c-k-c0x00ffffff-no-rj)
 
@@ -94,7 +94,7 @@ eg : ![CS Techtube](https://cstechtube.com/wp-content/uploads/2023/07/Copy-of-xs
 
 # Alert Message
 
-### Insert Link Syntax :
+### Alert Message Syntax :
 
 ```
 > Simple Text Quote
@@ -115,7 +115,7 @@ eg : ![CS Techtube](https://cstechtube.com/wp-content/uploads/2023/07/Copy-of-xs
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-### Output :
+### Alert Message Output :
 
 > Simple Text Quote
 
@@ -146,7 +146,7 @@ eg : ![CS Techtube](https://cstechtube.com/wp-content/uploads/2023/07/Copy-of-xs
 3. Item 3
 ```
 
-### Output :
+### Ordered List Output :
 
 1. Item 1
 2. Item 2
@@ -162,7 +162,7 @@ It can be created by using any of this three symbol (\*, -, and +)
 + Item 3
 ```
 
-### Output :
+### Unordered List Output :
 
 - Item 1
 
@@ -216,8 +216,6 @@ Also useful for color showcase Yellow `#fed700`
 
 # Code Block
 
-### Code Block Syntax :
-
 To Showcase code it need to be wrapped inside 3 Backticks (```)
 
 ### Code Block Input Syntax :
@@ -235,7 +233,7 @@ To Showcase code it need to be wrapped inside 3 Backticks (```)
 ```
 ````
 
-### Code Block Output Syntax :
+### Code Block Output :
 
 ```
   <html>
@@ -251,8 +249,6 @@ To Showcase code it need to be wrapped inside 3 Backticks (```)
 <br>
 
 # Dropdown Arrow
-
-### Code Block Syntax :
 
 To Showcase dropdown wrapped your code inside details tag (`<details> </details>`)
 
