@@ -207,8 +207,6 @@ Skills based on Production and Industry Relevant Methods.
 Also useful for color showcase Yellow `#fed700`
 ```
 
-<br>
-
 ### Highlighter Output :
 
 The core purpose of the CSTechtube Channel to make students skillful with both `Hard skill` and `softskill` to become Industry Ready Professional and Teach them Skills based on Production and Industry Relevant Methods.
