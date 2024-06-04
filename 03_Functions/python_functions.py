@@ -44,3 +44,18 @@ enrol_user_data2 = enroll_user('Darsh')      #argument is pass
 
 print('Enrolled User Name is ',enrol_user_data1)
 print('Enrolled User Name is ',enrol_user_data2)
+
+
+
+# Lambda Function 
+'''
+this is useful to create function which is used for temporary period of only one time
+
+
+'''
+
+
+
+
+
+
