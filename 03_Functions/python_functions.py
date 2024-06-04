@@ -50,9 +50,78 @@ print('Enrolled User Name is ',enrol_user_data2)
 # Lambda Function 
 '''
 this is useful to create function which is used for temporary period of only one time
+lambda function is to reduce memory space for single time used function it has great use case in python framework like flask and django
+
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+
+so lets learn with example of creatting lambda function for finding cube
+
+syntax 
+
+variable = lambda parameter: logic expression
+
+'''
+
+cube = lambda x: x ** 3
+
+print('lambda() = ',cube(9))
+
 
 
 '''
+(*args) function it is a special function which will help you perform operation of multiple parameter input of function denoted with (*args)
+
+'''
+
+# Get multiple paramter as input and return sum of them
+
+def sum_of_all(*args):
+    sum = 0
+    for i in args:
+        sum = sum + i
+    
+    return sum
+
+
+sum1 = sum_of_all(2,3,4,5)
+sum2 = sum_of_all(2,3,4,5,6,7,8)
+sum3 = sum_of_all(2,3,4,5,45,7,8,184,84,846,4)
+
+print(sum1, sum2, sum3)
+
+
+'''
+(**kwargs) function are keyword arguments fucntion it help you to perform operation on multiple dictionary  key value pair
+
+'''
+
+def business_team(**kwargs):
+    for key, value in kwargs.items():
+        print(f'{key} : {value}')
+
+
+
+team1 = business_team(Darshan = 'Full Stack Developer', Sagar = 'SEO Specialist', Rohan = 'UIUX Designer', Rohit = 'Android App Developer' )
+
+
+print(team1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
