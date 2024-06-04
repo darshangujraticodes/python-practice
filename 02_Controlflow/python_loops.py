@@ -159,8 +159,7 @@ while (attempts < retry_limit):
     
 
 
-
-
+# python behind the scenes structure of Loops Working model
 
 
 
