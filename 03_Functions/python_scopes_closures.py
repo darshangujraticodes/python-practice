@@ -1,0 +1,5 @@
+
+
+'''
+python scope and closures
+'''
