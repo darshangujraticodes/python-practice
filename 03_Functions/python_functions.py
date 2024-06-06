@@ -70,7 +70,6 @@ cube = lambda x: x ** 3
 # print('lambda() = ',cube(9))
 
 
-
 '''
 (*args) function it is a special function which will help you perform operation of multiple parameter input of function denoted with (*args)
 
@@ -186,7 +185,6 @@ for skills in function_list():
 Recurrsive function are the function in which we call function in same function
 
 '''
-
 
 def factorial(number):
     if number == 0:
