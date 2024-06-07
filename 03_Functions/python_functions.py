@@ -15,6 +15,8 @@ kwargs function (keyword argument function)
 
 # if parameter is not pass it should return default value 
 
+# Below it is an example of default argument
+
 import math
 
 def circle_data(radius = 5):
@@ -25,9 +27,9 @@ def circle_data(radius = 5):
 
 # destructure return function returns
 
-input_radius = int(input('Enter the Radius of Circle = '))
+# input_radius = int(input('Enter the Radius of Circle = '))
 
-circle_area , circle_circumference = circle_data(input_radius)
+circle_area , circle_circumference = circle_data()
 
 print('Area of Circle =',round(circle_area,2),'Circumference of Circle = ',round(circle_circumference,2))
 

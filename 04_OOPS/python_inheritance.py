@@ -2,6 +2,8 @@
 '''
 inheritance 
 
+it is process of inheriting parent class function and parameter into child class
+
 '''
 
 import math
@@ -15,7 +17,7 @@ class Circle:
         print('Radius =',self.radius)
         area = round(math.pi * self.radius * self.radius,2)
         circf = round(2 * math.pi * self.radius,2)
-        print(f'Area = {area}, Circumference = {circf}')
+        print(f'Area = {area}, Circumference = {circf} for Circle Radius = {self.radius}')
 
 
 class CircleData(Circle):
@@ -43,7 +45,7 @@ c3 = CircleData(30)
 
 #but child class can access parent class method
 c3.circle_info()
-print('Area =',c2.find_area(),' Circumference = ',c2.find_circumference() )
+print('Area =',c2.find_area(),' Circumference = ',c2.find_circumference(), 'Radius =', c2.radius )
 
 
 
