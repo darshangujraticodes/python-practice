@@ -22,8 +22,11 @@ class Circle:
 
 class CircleData(Circle):
     def __init__(self,radius):
-        super().__init__(radius)
-        # print('Circle Radius = ',self.radius)
+        # 2 types to call parent class init() method 1] super() , parent_class name()
+        #  Circle.__init__(self,radius)
+        super().__init__(radius) # recommended practice 
+       
+   
 
     def find_area(self):
         area = round(math.pi * self.radius * self.radius,2)
@@ -34,10 +37,16 @@ class CircleData(Circle):
         return cirf
     
 
+# Note: Use the pass keyword when you do not want to add any other properties or methods to the class.
+
+class CircleInfo(Circle):
+    pass
+
+
 c1 = Circle(10)
 c2 = CircleData(20)
 c3 = CircleData(30)
-
+c4 = CircleInfo(40)
 
 # parent class cannot access child class method 
 # print('Area =',c1.find_area(),' Circumference = ',c1.find_circumference() )
@@ -45,6 +54,8 @@ c3 = CircleData(30)
 
 #but child class can access parent class method
 c3.circle_info()
+c4.circle_info()
+
 print('Area =',c2.find_area(),' Circumference = ',c2.find_circumference(), 'Radius =', c2.radius )
 
 

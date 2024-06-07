@@ -44,10 +44,6 @@ car1 = Car('Tata','Nexon','10 lakh')
 
 print(f'Car Brand : {car1.brand}, Model : {car1.model}')
 
-
-# this will give error of no attribute
-# print(f'Car Price = {car1.__price}')
-
 # so lets fetch private variable data using getter method
 print(f'Encapsulate Price value fetch through getter() = {car1.get_car_price_info()}')
 
@@ -55,6 +51,8 @@ print(f'Encapsulate Price value fetch through getter() = {car1.get_car_price_inf
 car1.set_new_car_price('14 lakh')
 print(f'Encapsulate Price value update through setter() = {car1.get_car_price_info()}')
 
+# this will give error of no attribute
+print(f'Car Price = {car1.__price}')
 
 
 

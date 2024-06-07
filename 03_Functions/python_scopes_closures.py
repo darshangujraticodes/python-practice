@@ -3,3 +3,17 @@
 '''
 python scope and closures
 '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
