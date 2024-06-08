@@ -26,8 +26,6 @@ class CircleData(Circle):
         #  Circle.__init__(self,radius)
         super().__init__(radius) # recommended practice 
        
-   
-
     def find_area(self):
         area = round(math.pi * self.radius * self.radius,2)
         return area

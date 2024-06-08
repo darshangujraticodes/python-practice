@@ -55,11 +55,9 @@ print('\n',c1.vehicle_info())
 print(c1.vehicle_movement())
 
 
-
 a1 = Plane('Boeing','Unified 737 MAX', '800 Crore')
 print('\n',a1.vehicle_info())
 print(a1.vehicle_movement())
-
 
 
 s1 = Ship('Yacht','MAJESTY 160','2 Crore')

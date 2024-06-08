@@ -20,11 +20,15 @@ def get_car_info():
 
 # here we will 
 class Car:
+    total_car = 0
+
     def __init__(self, brand, model, price):
         self.brand = brand
         self.model = model
         # Double underscoe (__) denote the privatization of variable to restrict value access by object to perform encapsulation
         self.__price = price 
+        # class variable
+        Car.total_car += 1
 
     # getter method is used to fetch private variable data 
     def get_car_price_info(self):
@@ -40,7 +44,10 @@ class Car:
     
     
 car1 = Car('Tata','Nexon','10 lakh')
+Car('Hyundai','Creta','18 lakh')
+Car('Honda','City','11 lakh')
 
+print(f'Class variable Total Car = {Car.total_car}')
 
 print(f'Car Brand : {car1.brand}, Model : {car1.model}')
 
@@ -52,7 +59,7 @@ car1.set_new_car_price('14 lakh')
 print(f'Encapsulate Price value update through setter() = {car1.get_car_price_info()}')
 
 # this will give error of no attribute
-print(f'Car Price = {car1.__price}')
+# print(f'Car Price = {car1.__price}')
 
 
 

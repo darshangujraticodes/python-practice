@@ -21,6 +21,15 @@ indirect which is inside __init__() method
 self => 
 work example : communication channel to connect and share information data 
 
+
+in simple 
+class : blueprint for creating new object
+object : instance of a class
+
+eg.
+class : Fruits
+Object : Mango, Apple, Chickoo, Banana
+
 '''
 
 
