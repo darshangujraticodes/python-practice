@@ -7,4 +7,4 @@
 [Code with Mosh - Python Course](https://youtu.be/_uQrJ0TkZlc?feature=shareds)
 
 3] Python Data Structure
-[Python Data Structure Resource 1](https://www.youtube.com/watch?v=n6eZW9FqU_8&list=PLB5RANN-c-weiLM4AxTaEKWCQ1JA4pNUZ)
+[Python Data Structure Resource](https://www.youtube.com/watch?v=n6eZW9FqU_8&list=PLB5RANN-c-weiLM4AxTaEKWCQ1JA4pNUZ)
