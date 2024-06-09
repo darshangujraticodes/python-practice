@@ -83,7 +83,6 @@ order_figure = 6
 
 type_chai = 'Masala'
 
-
 print(order.format(order_figure, type_chai))
 
 # format string other example
@@ -126,3 +125,10 @@ print(web_url)
 
 print('darshan' in str_val2)
 
+
+#New format strings in python using (f)
+
+price = 85
+total_price_text = f'Total Price of purchase items is ₹ {price:.2f} '
+
+print('\n',total_price_text)
