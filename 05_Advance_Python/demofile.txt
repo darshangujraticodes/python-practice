@@ -1,5 +1,4 @@
 
-
 I am a Full Stack Developer, with expertise skills in
 
 HTML 
@@ -12,12 +11,10 @@ Next Js
 Python
 Django
 React Native
-
-and learing deveops to effectivly deploy scalable Web and Mobile Application 
+ 
+learing deveops to effectivly deploy scalable Web and Mobile Application 
 
 AWS
 Docker
 Kubernetes
-
-
-
+Mastering Frontend, Backend and Deveop's Mastering Frontend, Backend and Deveop's Mastering Frontend, Backend and Deveop's 
