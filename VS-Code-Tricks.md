@@ -1,7 +1,7 @@
 # VC Code Editors Shortcut Tricks
 
 1. Cursor pointer Movement <br>
-   Press `Home` Button to move cursor to beginner point of line
+   Press `Home` Button to move cursor to beginner point of line <br>
    Press `End` Button to move cursor to end point of line
 
 2. Side Bar (Open and Close) <br>
