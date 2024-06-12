@@ -9,17 +9,51 @@ gsap.to(".box1", {
   delay: 1,
   rotate: 360,
   backgroundColor: "crimson",
+  borderRadius: "50%",
+  scale: 0.5,
+  // repeat -1 is given to animate for unlimited time
+  repeat: -1,
+  // yoyo provide returning back effect
+  yoyo: true,
 });
 
 gsap.to(".box2", {
-  x: 350,
-  y: -300,
+  x: 1000,
+  scale: 0.5,
   duration: 2,
+  repeat: -1,
   delay: 1,
+  yoyo: true,
 });
 
-gsap.from(".box3", {
-  x: 1000,
-  duration: 2,
-  delay: 1,
+// headText animation
+
+gsap.from(".headText", {
+  opacity: 0,
+  y: 20,
+  duration: 1,
+  delay: 0.5,
+  stagger: 0.4,
+});
+
+// timeline  is an animation told that arrages all animating objectin in one thread an
+
+// Here in this timeline we are binding multiple elements animation in common timeline to synchronize their animation sequence one after another
+
+var navTimeline = gsap.timeline();
+
+navTimeline.from(".logoHead", {
+  opacity: 0,
+  y: -20,
+  duration: 0.6,
+  delay: 0.5,
+});
+
+navTimeline.from(".navMenu", {
+  opacity: 0,
+  y: -20,
+  duration: 0.6,
+
+  // stagger divide multiple group animation in sequence line order animation like menu option after removing this all will load up in same time
+  stagger: 0.4,
 });
