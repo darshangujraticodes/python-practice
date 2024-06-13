@@ -11,3 +11,64 @@ body {
   height: 100%;
   background-color: #262626 !important;
 }
+
+.section5 {
+  padding: 50px 0;
+  text-transform: uppercase;
+}
+
+.section1 {
+  background-color: blueviolet;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  width: 250px;
+  height: 250px;
+  background-color: #262626;
+}
+
+.box2 {
+  width: 250px;
+  height: 250px;
+  background-color: #262626;
+}
+
+.box3 {
+  width: 250px;
+  height: 250px;
+  background-color: #262626;
+}
+
+.box4 {
+  width: 250px;
+  height: 250px;
+  background-color: #262626;
+}
