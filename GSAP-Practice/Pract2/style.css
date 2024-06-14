@@ -17,58 +17,65 @@ body {
   text-transform: uppercase;
 }
 
-.section1 {
-  background-color: blueviolet;
-  height: 100vh;
+.headText {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.contentHeadText {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.commonSection {
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.section1 {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
 .section2 {
   background-color: aliceblue;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .section3 {
   background-color: aqua;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.section6 {
+  background-color: burlywood;
 }
 
 .section4 {
   background-color: bisque;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .box1 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #262626;
 }
 
 .box2 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #262626;
 }
 
 .box3 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #262626;
 }
 
 .box4 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #262626;
 }
