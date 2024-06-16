@@ -1,3 +1,5 @@
 Hi, Git this is file1.txt
 
 in this file we will practice git and github
+
+first bug is fixed
