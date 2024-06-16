@@ -2,6 +2,6 @@ Hi, Git this is file1.txt
 
 in this file we will practice git and github
 
-file first bug is fixed by main username
+first bug is fixed
 
-second bug is fixed in main branch
+second bug is fixed
