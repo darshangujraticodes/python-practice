@@ -22,6 +22,8 @@ gsap.from(".box3", {
     trigger: ".section3 .box3",
     scroller: "body",
     start: "top 60%",
+    // it restrict animation to mouse scroll movement
+    scrub: true,
   },
 });
 
