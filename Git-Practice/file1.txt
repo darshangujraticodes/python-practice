@@ -4,4 +4,4 @@ in this file we will practice git and github
 
 file first bug is fixed by main username
 
-seconf bug is fixxed 
+second bug is fixed in main branch
