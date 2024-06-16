@@ -22,3 +22,11 @@
 
 3. `git add file_name` | `git add . `
    This command will add all your changes file to staging position from wheren it is pushed to git repository and them to live code server. Staging is similar to anecdote "Dancer is on the stage but has not started dancing"
+
+4. `git commit -m 'message' ` note message whould be in present imperative(order) format
+
+5. `git log` | `git log --oneline`
+
+<!-- git branch section -->
+
+6. `git branch`

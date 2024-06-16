@@ -1,0 +1,8 @@
+
+we have created new branch named bugfix
+
+it is created from main branch and now it works similar to multiverse system
+
+complete new ecosystem in itself 
+
+here we have fixed the bug of main branch file.
