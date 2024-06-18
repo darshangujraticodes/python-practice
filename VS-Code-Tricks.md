@@ -19,3 +19,9 @@
 
 6. To comment down your line of code <br>
    Press `ctrl` + `/` to comment it.
+
+7. Add Tab Space to your selected portion of code <br>
+   select your code portion and press `Tab` button to move code forward.
+
+8. Remove Tab Space to your selected portion of code <br>
+   select your code portion and press `Shift` + `Tab` button to move code backward.
