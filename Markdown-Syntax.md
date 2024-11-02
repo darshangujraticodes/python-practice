@@ -9,6 +9,8 @@
 7. [Text Higlighter](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#text-highlighter)
 8. [Code Block](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#code-block)
 9. [DropDown Arrow](https://github.com/darshangujraticodes/python-practice/blob/main/Markdown-Syntax.md#dropdown-arrow)
+10. [Table]
+
 
 <br>
 
@@ -309,3 +311,53 @@ print('Sum of Input Number = ', sum_of_num(input_val))
 ```
 
 </details>
+
+<br>
+
+<br>
+
+# Table 
+
+It help display Data in Tabular Format
+
+### Code Block Table Syntax :
+
+```
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+```
+
+### Output :
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
+<br>
+
+<br>
+
+# Task Lists 
+
+It help display the bug issue which is fixed or not and relevant bug which are persist in open source projects or it is also use to showcase feature covered in open source projects
+
+### Code Syntax :
+```
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+```
+
+### Output :
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
